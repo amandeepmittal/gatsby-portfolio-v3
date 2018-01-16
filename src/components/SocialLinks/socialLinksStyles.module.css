@@ -1,12 +1,12 @@
-a {
+.socialLinks a {
   color: white;
 }
 
-a:hover {
+.socialLinks a:hover {
   color: #bd93d8;
 }
 
-ul {
+.socialLinks ul {
   margin: 15px 45px 10px 0;
   display: flex;
   flex-flow: row wrap;
@@ -16,6 +16,6 @@ ul {
   list-style-type: none;
 }
 
-li {
+.socialLinks li {
   margin: 0 5px;
 }

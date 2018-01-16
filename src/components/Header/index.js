@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 
+import { links } from "../../data/socialLinks";
 import styles from "./header.module.css";
 
 const Header = () => (
@@ -11,7 +12,9 @@ const Header = () => (
           about
         </Link>
         &nbsp;/&nbsp;
-        <Link to="https://medium.com/@amanhimself">blog</Link>
+        <a href={links.medium} target="_blank">
+          blog
+        </a>
       </h2>
     </div>
   </div>
