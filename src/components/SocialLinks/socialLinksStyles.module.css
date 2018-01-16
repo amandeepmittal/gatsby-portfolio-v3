@@ -1,0 +1,14 @@
+a {
+  color: white;
+}
+
+a:hover {
+  color: #bd93d8;
+}
+
+li {
+  font-size: 25px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+}
