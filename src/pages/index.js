@@ -1,13 +1,28 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import Info from "../components/Info/index";
-import WhoAmI from "../components/WhoAmI/index";
+import {
+  Sides,
+  LeftSide,
+  RightSideHome
+} from "../shared/styles/styled-components";
+import Info from "../components/Info";
+import WhoAmI from "../components/WhoAmI";
+import DevStack from "../components/DevStack";
+import Technologies from "../components/Technologies";
 
 const IndexPage = () => (
   <div>
-    <Info />
-    <WhoAmI />
+    <Sides>
+      <LeftSide>
+        <Info />
+      </LeftSide>
+      <RightSideHome>
+        <WhoAmI />
+        <DevStack />
+        <Technologies />
+      </RightSideHome>
+    </Sides>
   </div>
 );
 

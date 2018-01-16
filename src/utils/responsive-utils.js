@@ -18,3 +18,13 @@ export const media = Object.keys(sizes).reduce((accumulator, label) => {
   `;
   return accumulator;
 }, {});
+
+export const mobileHome = (...args) => css`
+  ${media.tablet`
+    ${props =>
+      props.isHome &&
+      css`
+        ${css(...args)};
+      `}
+  `};
+`;

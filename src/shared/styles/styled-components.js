@@ -1,5 +1,51 @@
 import styled from "styled-components";
-import { media } from "../../utils/responsive-utils";
+import { media, mobileHome } from "../../utils/responsive-utils";
+import flex from "./flex";
+
+const sizes = {
+  header: {
+    height: 50
+  }
+};
+
+export const Sides = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  ${media.tablet`
+      flex-direction: column;
+    `};
+`;
+
+export const LeftSide = styled.div`
+  width: auto;
+  min-width: 300px;
+  min-height: calc(100vh - ${sizes.header.height}px);
+
+  ${media.tablet`
+        min-width: 0;
+        width: 100%;
+    `} ${mobileHome`
+      ${flex.vertical};
+      ${flex.centerVertical};
+    `};
+`;
+
+const RightSide = styled.div`
+  padding-bottom: 50px;
+`;
+
+export const RightSideHome = styled(RightSide)`
+  color: white;
+  border-left: 5px solid rgba(255, 255, 255, 0.5);
+  padding-left: 70px;
+  margin-left: 20px;
+  position: relative;
+
+  ${media.phoneM`
+      padding-left: 30px;
+    `};
+`;
 
 export const Section = styled.section`
   margin-bottom: 100px;
