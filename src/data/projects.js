@@ -87,6 +87,20 @@ export const projects = [
 
 export const sideProjects = [
   {
+    title: "Portfolio v2",
+    type: "Open Source",
+    client: null,
+    description:
+      "Responsive Portfolio Wesbite Desgined using Materialize CSS. Previously used it as a personal website.",
+    techStack: "HTML, Materialize CSS",
+    extra: null,
+    link: "http://portfolio-v2.surge.sh/",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/portfolio-v2"
+    }
+  },
+  {
     title: "Awesome-Vulcanjs",
     type: "Open Source",
     client: null,
