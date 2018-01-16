@@ -6,9 +6,16 @@ a:hover {
   color: #bd93d8;
 }
 
-li {
-  font-size: 25px;
+ul {
+  margin: 15px 45px 10px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  font-size: 30px;
   list-style-type: none;
-  display: inline-block;
-  margin: 0 10px;
+}
+
+li {
+  margin: 0 5px;
 }
