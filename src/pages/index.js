@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
 
+import Info from "../components/Info/index";
+
 const IndexPage = () => (
   <div>
-    <h1>Hi</h1>
+    <Info />
   </div>
 );
 
