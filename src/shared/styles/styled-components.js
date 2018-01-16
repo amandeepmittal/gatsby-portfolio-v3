@@ -104,4 +104,7 @@ export const UnderlinedLink = styled.a`
     `
       border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
     `} padding-bottom: 1px;
+  &:hover {
+    color: #bd93d8;
+  }
 `;

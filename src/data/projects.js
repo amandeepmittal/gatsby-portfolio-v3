@@ -4,7 +4,7 @@ export const projects = [
     type: "Open Source",
     client: null,
     description:
-      "Built using Node.js and actively maintained. Encouraging Developers and code newbies who code and participate in #100DaysOfCode as they share and support each other through Twitter.",
+      "Built using Node.js and is actively maintained. Encouraging Developers and code newbies who code and participate in #100DaysOfCode as they share and support each other through Twitter.",
     techStack: "Node.js, Twitter API",
     extra: "Part of freeCodeCamp Organisation.",
     link: "https://twitter.com/_100DaysOfCode",
@@ -14,7 +14,7 @@ export const projects = [
     }
   },
   {
-    title: "Task Management App",
+    title: "User Management App",
     type: "Remote",
     client: "JBL Technologies",
     description:
@@ -53,6 +53,50 @@ export const projects = [
     github: {
       name: null,
       githubHref: null
+    }
+  },
+  {
+    title: "Gatsby Starter CeeVee",
+    type: "Open Source",
+    client: null,
+    description:
+      "Gatsby Starter Kit/Theme, single-page, based on the Ceevee site template, design by Styleshout. Responsive Design.",
+    techStack: "Reactjs, Gatsbyjs",
+    extra: null,
+    link: "http://gatsby-starter-ceevee.surge.sh/",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/gatsby-starter-ceevee"
+    }
+  },
+  {
+    title: "Gatsby Starter Product Guy",
+    type: "Open Source",
+    client: null,
+    description:
+      "Gatsby Starter Kit/Theme, single-page, for Makers and Product Hunters. Using Typography.js easy to switch fonts. Responsive Design.",
+    techStack: "Reactjs, Gatsbyjs, GraphQL",
+    extra: null,
+    link: "http://gatsby-starter-product-guy.surge.sh/",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/gatsby-starter-product-guy"
+    }
+  }
+];
+
+export const sideProjects = [
+  {
+    title: "React Youtube Search",
+    type: "Open Source",
+    client: null,
+    description: "Youtube API search with React. Used Github-Pages to deploy.",
+    techStack: "Reactjs, YouTube API",
+    extra: null,
+    link: "http://www.amanhimself.me/react-youtube-search/",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/react-youtube-search"
     }
   }
 ];

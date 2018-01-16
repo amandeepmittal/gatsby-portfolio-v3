@@ -10,13 +10,14 @@ export const Wrapper = styled(ListItem)`
 `;
 
 export const Link = styled(UnderlinedLink)`
-  margin-bottom: 15px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
   display: inline-block;
 `;
 
 export const Points = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  line-height: 50px;
 `;
 
 export const Title = styled.div`
@@ -67,5 +68,18 @@ export const Point = styled.p`
     ${media.phoneM`
         left: -40px;
     `};
+  }
+`;
+
+export const GithubUnderlinedLink = styled.a`
+  color: white;
+  text-decoration: none;
+  ${props =>
+    props.href &&
+    `
+      border-bottom: 0px rgba(255, 255, 255, 0.7);
+    `} padding-bottom: 1px;
+  &:hover {
+    color: #bd93d8;
   }
 `;
