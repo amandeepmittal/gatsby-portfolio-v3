@@ -87,6 +87,60 @@ export const projects = [
 
 export const sideProjects = [
   {
+    title: "Awesome-Vulcanjs",
+    type: "Open Source",
+    client: null,
+    description:
+      "A Directory listing Vulcanjs related resources. Helpful if you are getting started.",
+    techStack: "Markdown",
+    extra: null,
+    link: "http://vulcanjs.org/",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/awesome-vulcan"
+    }
+  },
+  {
+    title: "Awesome-Twitter-Bots",
+    type: "Open Source",
+    client: null,
+    description: "A Directory listing Twitter Bots built using Node.js.",
+    techStack: "Markdown",
+    extra: null,
+    link: "https://github.com/amandeepmittal/awesome-twitter-bots",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/awesome-twitter-bots"
+    }
+  },
+  {
+    title: "Bitli",
+    type: "Open Source",
+    client: null,
+    description: "Fullstack Application. A URL Shortner Service.",
+    techStack: "Meteorjs, Reactjs, MongoDB, Bootstrap, Heroku",
+    extra: null,
+    link: "http://bitli.herokuapp.com/",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/meteor-bitli"
+    }
+  },
+  {
+    title: "MEAN Stack News Twitter Bot",
+    type: "Open Source",
+    client: null,
+    description: "Twitter Bot built using Node.js and actively maintained.",
+    techStack: "Node.js, Twitter API",
+    extra:
+      "This twitter bot shares everything related to MEAN Stack and Ionic Framework on the basis of pre-defined hashtags and user handlers.",
+    link: "https://twitter.com/nodejstweet",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/nodejs-tweet"
+    }
+  },
+  {
     title: "React Youtube Search",
     type: "Open Source",
     client: null,

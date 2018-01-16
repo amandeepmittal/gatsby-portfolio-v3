@@ -11,6 +11,7 @@ import WhoAmI from "../components/WhoAmI";
 import DevStack from "../components/DevStack";
 import Technologies from "../components/Technologies";
 import Projects from "../components/Projects";
+import SideProjects from "../components/SideProjects";
 
 const IndexPage = () => (
   <div>
@@ -23,6 +24,7 @@ const IndexPage = () => (
         <DevStack />
         <Technologies />
         <Projects />
+        <SideProjects />
       </RightSideHome>
     </Sides>
   </div>

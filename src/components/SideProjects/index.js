@@ -11,14 +11,14 @@ import {
 } from "../../shared/styles/styles-projects";
 import { Section, SectionTitle } from "../../shared/styles/styled-components";
 
-import { projects } from "../../data/projects";
+import { sideProjects } from "../../data/projects";
 
-const Projects = () => {
+const SideProjects = () => {
   return (
     <Section>
-      <SectionTitle>Projects I've Worked on</SectionTitle>
+      <SectionTitle>Side Projects</SectionTitle>
       <Wrapper>
-        {projects.map(project => (
+        {sideProjects.map(project => (
           <div key={project.title}>
             <Link target="_blank" href={project.link}>
               <Title>{project.title}</Title>
@@ -55,4 +55,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default SideProjects;

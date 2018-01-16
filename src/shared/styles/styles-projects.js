@@ -1,9 +1,6 @@
 import styled from "styled-components";
 import { media } from "../../utils/responsive-utils";
-import {
-  ListItem,
-  UnderlinedLink
-} from "../../shared/styles/styled-components";
+import { ListItem, UnderlinedLink } from "./styled-components";
 
 export const Wrapper = styled(ListItem)`
   margin: 35px 0;
