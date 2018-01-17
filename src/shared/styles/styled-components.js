@@ -89,7 +89,7 @@ export const ListItem = styled.li`
   list-style-type: none;
   margin: 10px 0;
   font-weight: 100;
-  line-height: 20px;
+  line-height: 30px;
 `;
 
 export const UnorderedList = styled.ul`

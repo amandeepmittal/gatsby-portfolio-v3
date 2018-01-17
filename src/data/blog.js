@@ -6,20 +6,18 @@ export const blogposts = [
       "https://medium.freecodecamp.org/setting-up-and-getting-used-to-gatsby-1fc27985ae8a"
   },
   {
-    title:
-      "https://www.zeolearn.com/magazine/build-a-progressive-web-app-using-react",
+    title: "Build a Progressive Web App with React",
     publication: "ZeoLearn/blog",
     link:
       "https://www.zeolearn.com/magazine/build-a-progressive-web-app-using-react"
   },
   {
-    title:
-      "https://hackernoon.com/create-a-simple-twitter-bot-with-node-js-5b14eb006c08#.mkrc0cug7",
+    title: "Create a Twitter Bot with Node.js Part 1",
     publication: "Hackernoon & Rising Stack",
     link: "https://community.risingstack.com/node-js-twitter-bot-tutorial/"
   },
   {
-    title: "Create a Twitter Bot with Node.js Series Part II",
+    title: "Create a Twitter Bot with Node.js Series Part 2",
     publication: "Rising Stack",
     link:
       "https://community.risingstack.com/how-to-make-a-twitter-bot-with-node-js/"
