@@ -9,19 +9,23 @@ export const devstack = [
 ];
 
 export const technologies = [
-  "Angularjs/Angular",
+  "Angularjs / Angular",
   "Meteorjs",
   "Firebase",
+  "Redux",
   "Ionic",
   "Bootstrap",
   "Sass",
   "Less",
   "Mocha",
+  "npm",
+  "Bower",
   "Gulp",
   "Grunt",
   "Yeoman",
   "Jade/Pug",
   "Handlebars",
   "EJS",
-  "Mocha"
+  "Mocha",
+  "styled-components"
 ];

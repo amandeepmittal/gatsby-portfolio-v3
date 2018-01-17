@@ -15,7 +15,7 @@ const Technologies = () => {
       <SectionTitle>Technogolies / Tools I've used</SectionTitle>
       <UnorderedList>
         <ListItem>
-          <p>{technologies.join(", ")}</p>
+          <p>{technologies.join(", ")}.</p>
         </ListItem>
       </UnorderedList>
     </Section>
