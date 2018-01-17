@@ -67,7 +67,7 @@ export const SectionTitle = styled.h3`
     color: white;
     background-color: white;
     position: absolute;
-    left: -85px;
+    left: -90px;
     top: 7px;
     border: 5px solid #69359c;
 
