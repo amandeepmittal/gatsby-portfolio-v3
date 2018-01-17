@@ -16,7 +16,7 @@ import { projects } from "../../data/projects";
 const Projects = () => {
   return (
     <Section>
-      <SectionTitle>Projects I've Worked on</SectionTitle>
+      <SectionTitle>Projects I've Worked on 👨‍💻</SectionTitle>
       <Wrapper>
         {projects.map(project => (
           <div key={project.title}>

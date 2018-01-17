@@ -16,7 +16,7 @@ import { links } from "../../data/socialLinks";
 const Blogs = () => {
   return (
     <Section id="blogs">
-      <SectionTitle>Latest Blog Posts</SectionTitle>
+      <SectionTitle>Latest Blog Posts 📋</SectionTitle>
       <Points>
         <Point>{blogMeta.description}</Point>
         <Point>

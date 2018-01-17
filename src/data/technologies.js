@@ -1,3 +1,5 @@
+import Devicon from "devicon-react";
+
 export const devstack = [
   { name: "JavaScript" },
   { name: "Node.js" },
