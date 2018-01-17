@@ -8,12 +8,24 @@ import {
   ListItem
 } from "../../shared/styles/styled-components";
 
-import { blogposts } from "../../data/blog";
+import { Points, Point } from "../../shared/styles/styles-projects";
+
+import { blogposts, blogMeta } from "../../data/blog";
+import { links } from "../../data/socialLinks";
 
 const Blogs = () => {
   return (
     <Section id="blogs">
       <SectionTitle>Latest Blog Posts</SectionTitle>
+      <Points>
+        <Point>{blogMeta.description}</Point>
+        <Point>
+          For Full Archive, go{" "}
+          <UnderlinedLink target="_blank" href={links.medium}>
+            here!
+          </UnderlinedLink>
+        </Point>
+      </Points>
       <UnorderedList>
         {blogposts.map(post => (
           <ListItem key={post.link}>

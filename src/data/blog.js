@@ -81,3 +81,8 @@ export const blogposts = [
       "https://hackernoon.com/how-to-use-font-awesome-in-an-ionic-application-31638ed3f77d"
   }
 ];
+
+export const blogMeta = {
+  description:
+    "Writer at freeCodeCamp, Hackernoon, Codeburst.io, ZeoLearn/blog and Art + Marketing."
+};
