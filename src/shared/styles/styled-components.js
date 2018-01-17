@@ -25,10 +25,20 @@ export const LeftSide = styled.div`
   ${media.tablet`
         min-width: 0;
         width: 100%;
+        margin-bottom: -350px;
     `} ${mobileHome`
       ${flex.vertical};
       ${flex.centerVertical};
     `};
+  ${media.phablet`
+    margin-bottom: -300px;
+  `};
+  ${media.phoneM`
+    margin-bottom: -350px;
+  `};
+  ${media.phone`
+    margin-bottom: -150px;
+  `};
 `;
 
 const RightSide = styled.div`

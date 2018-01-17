@@ -28,3 +28,9 @@ h2 a:hover {
 .headerH1 {
   margin: 10px;
 }
+
+@media (max-width: 440px) {
+  .footer {
+    font-size: 10px;
+  }
+}
