@@ -48,13 +48,13 @@ export const RightSideHome = styled(RightSide)`
 `;
 
 export const Section = styled.section`
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 `;
 
 export const SectionTitle = styled.h3`
   font-size: 35px;
   font-weight: 100;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   color: white;
   font-weight: 300;
   padding-bottom: 5px;

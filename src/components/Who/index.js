@@ -8,7 +8,7 @@ import {
 } from "../../shared/styles/styled-components";
 import { textLinks } from "../../data/socialLinks";
 
-const WhoAmI = () => {
+const Who = () => {
   return (
     <Section id="who">
       <SectionTitle>Who?</SectionTitle>
@@ -25,4 +25,4 @@ const WhoAmI = () => {
   );
 };
 
-export default WhoAmI;
+export default Who;

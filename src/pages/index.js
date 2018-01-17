@@ -8,7 +8,8 @@ import {
 } from "../shared/styles/styled-components";
 
 import Info from "../components/Info";
-import WhoAmI from "../components/WhoAmI";
+import Who from "../components/Who";
+import What from "../components/What";
 import DevStack from "../components/DevStack";
 import Technologies from "../components/Technologies";
 import Projects from "../components/Projects";
@@ -25,7 +26,8 @@ const IndexPage = () => (
         <Info />
       </LeftSide>
       <RightSideHome>
-        <WhoAmI />
+        <Who />
+        <What />
         <DevStack />
         <Technologies />
         <Projects />

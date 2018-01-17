@@ -14,9 +14,5 @@ export const textLinks = [
   {
     href: links.bookBlog,
     title: "Book Critic/Blogger"
-  },
-  {
-    href: links.twitter,
-    title: "Remote"
   }
 ];
