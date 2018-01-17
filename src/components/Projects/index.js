@@ -36,6 +36,8 @@ const Projects = () => {
                       : project.github.githubHref
                   }
                   style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener"
                 >
                   {project.github.name === null ? null : (
                     <FaGithub style={{ fontSize: "30px" }} />
