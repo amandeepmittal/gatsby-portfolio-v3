@@ -168,3 +168,24 @@ export const sideProjects = [
     }
   }
 ];
+
+export const OSS = [
+  {
+    link: "https://github.com/nodejs/nodejs.org/commits?author=amandeepmittal",
+    description:
+      "Contributor to Node.js Foundation's website project to form a self-publishing, community-managed version."
+  },
+  {
+    link: "https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot",
+    description:
+      "Creator of freeCodeCamp's #100DaysOfCode campaign Twitter bot."
+  },
+  {
+    link: "http://www.amanhimself.me/codestats.net/users/amanmittal",
+    description: "Developed command line utility for Code::Stats."
+  },
+  {
+    link: "https://guide.freecodecamp.org/",
+    description: "Contributor to freeCodeCamp Guides."
+  }
+];
