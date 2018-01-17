@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.footerContainer}>
         <p>
           Copyright © 2018 Aman Mittal | Site Developed & Designed using ⚛️ +{" "}
-          <img src={GatsbyLogo} style={{ width: "16px", height: "16px" }} />{" "}
+          <img src={GatsbyLogo} alt="gatsby-logo" style={{ width: "16px", height: "16px" }} />{" "}
           {""}Gatsbyjs + 💅 style-components.
         </p>
       </div>

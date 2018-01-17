@@ -6,7 +6,7 @@ import styles from "./avatarStyles.module.css";
 const Avatar = () => {
   return (
     <div>
-      <img src={avatarImage} className={styles.avatarImg} />
+      <img src={avatarImage} className={styles.avatarImg} alt="user-avatar" />
     </div>
   );
 };
