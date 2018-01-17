@@ -20,7 +20,11 @@ const OpenSourceCommits = () => {
           <ListItem key={contribution.link}>
             <Points>
               <Point>
-                <UnderlinedLink target="_blank" href={contribution.link}>
+                <UnderlinedLink
+                  target="_blank"
+                  href={contribution.link}
+                  rel="noopener"
+                >
                   {contribution.description}
                 </UnderlinedLink>
               </Point>

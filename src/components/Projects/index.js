@@ -20,7 +20,7 @@ const Projects = () => {
       <Wrapper>
         {projects.map(project => (
           <div key={project.title}>
-            <Link target="_blank" href={project.link}>
+            <Link target="_blank" href={project.link} rel="noopener">
               <Title>{project.title}</Title>
             </Link>
             <Points>
