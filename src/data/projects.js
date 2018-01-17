@@ -97,7 +97,7 @@ export const sideProjects = [
     link: "http://portfolio-v3.surge.sh/",
     github: {
       name: "Github",
-      githubHref: "https://github.com/amandeepmittal/portfolio-v3"
+      githubHref: "https://github.com/amandeepmittal/gatsby-portfolio-v3"
     }
   },
   {
