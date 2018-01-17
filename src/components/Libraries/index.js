@@ -44,13 +44,18 @@ class Libraries extends Component {
               <ListItem key={library.link}>
                 <Points>
                   <Point>
-                    <UnderlinedLink target="_blank" href={library.link}>
+                    <UnderlinedLink
+                      target="_blank"
+                      href={library.link}
+                      rel="noopener"
+                    >
                       {library.title}
                     </UnderlinedLink>{" "}
                     {library.description} Using {library.techStack}.{" "}
                     <GithubUnderlinedLink
                       href={library.githubhref}
                       target="_blank"
+                      rel="noopener"
                     >
                       <FaGithub style={{ fontSize: "30px" }} />
                     </GithubUnderlinedLink>{" "}

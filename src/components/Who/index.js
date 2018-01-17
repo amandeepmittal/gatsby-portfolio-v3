@@ -15,7 +15,7 @@ const Who = () => {
       <UnorderedList>
         {textLinks.map(link => (
           <ListItem key={link.href}>
-            <UnderlinedLink target="_blank" href={link.href}>
+            <UnderlinedLink target="_blank" href={link.href} rel="noopener">
               {link.title}
             </UnderlinedLink>
           </ListItem>

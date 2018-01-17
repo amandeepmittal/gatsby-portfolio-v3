@@ -87,6 +87,20 @@ export const projects = [
 
 export const sideProjects = [
   {
+    title: "Portfolio v3",
+    type: "Open Source",
+    client: null,
+    description:
+      "Responsive Portfolio Wesbite Desgined using Gatsbyjs, Reactjs and 💅 styled-components. Currently, using it as a personal website.",
+    techStack: "Reactjs, Gatsbyjs, styled-components",
+    extra: null,
+    link: "http://portfolio-v3.surge.sh/",
+    github: {
+      name: "Github",
+      githubHref: "https://github.com/amandeepmittal/portfolio-v3"
+    }
+  },
+  {
     title: "Portfolio v2",
     type: "Open Source",
     client: null,

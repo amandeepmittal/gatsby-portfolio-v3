@@ -21,7 +21,7 @@ const Blogs = () => {
         <Point>{blogMeta.description}</Point>
         <Point>
           For Full Archive, go{" "}
-          <UnderlinedLink target="_blank" href={links.medium}>
+          <UnderlinedLink target="_blank" rel="noopener" href={links.medium}>
             here!
           </UnderlinedLink>
         </Point>
@@ -29,7 +29,7 @@ const Blogs = () => {
       <UnorderedList>
         {blogposts.map(post => (
           <ListItem key={post.link}>
-            <UnderlinedLink target="_blank" href={post.link}>
+            <UnderlinedLink target="_blank" rel="noopener" href={post.link}>
               {post.title}
             </UnderlinedLink>{" "}
             published by {post.publication}
