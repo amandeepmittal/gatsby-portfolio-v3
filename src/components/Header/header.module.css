@@ -1,16 +1,14 @@
 .headerContainer {
   background-color: #69359c;
   height: 50px;
+  max-width: 960;
   width: 100%;
-
-  position: fixed;
+  margin: auto;
+  position: absolute;
   top: 0;
 }
 
 .headerMaxWidthContainer {
-  margin: auto;
-  max-width: 960;
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
