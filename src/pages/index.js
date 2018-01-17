@@ -16,6 +16,7 @@ import SideProjects from "../components/SideProjects";
 import Blogs from "../components/Blogs";
 import OpenSourceCommits from "../components/OpenSourceCommits";
 import Libraries from "../components/Libraries";
+import Interesting from "../components/Interesting";
 
 const IndexPage = () => (
   <div>
@@ -28,10 +29,11 @@ const IndexPage = () => (
         <DevStack />
         <Technologies />
         <Projects />
+        <OpenSourceCommits />
         <SideProjects />
         <Blogs />
-        <OpenSourceCommits />
         <Libraries />
+        <Interesting />
       </RightSideHome>
     </Sides>
   </div>
