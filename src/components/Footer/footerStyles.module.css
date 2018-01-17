@@ -23,3 +23,15 @@
 .fotter a:hover {
   color: #bd93d8;
 }
+
+@media (max-width: 440px) {
+  .footer {
+    height: 70px;
+  }
+}
+
+@media (max-width: 376) {
+  .footer {
+    height: 85px;
+  }
+}
